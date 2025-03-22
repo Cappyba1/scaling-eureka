@@ -1,2 +1,2 @@
 # scaling-eureka
-First Git-hub repo
+First Git-hub repo!
