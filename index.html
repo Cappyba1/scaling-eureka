@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+    <input type="number" id="inputValue" placeholder="Enter value">
+    <select id="conversionType">
+        <option value="temp">Temperature (C ↔ F)</option>
+        <option value="length">Length (m ↔ ft)</option>
+        <option value="weight">Weight (kg ↔ lb)</option>
+    </select>
+    <br>
+    <select id="fromUnit">
+        <option value="celsius">Celsius</option>
+        <option value="meters">Meters</option>
+        <option value="kg">Kilograms</option>
+    </select>
+    <select id="toUnit">
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="feet">Feet</option>
+        <option value="lb">Pounds</option>
+    </select>
+    <br>
+    <button onclick="convert()">Convert</button>
+    <p id="result">Result: </p>
+
+    <script src="converter.js"></script>
+</body>
+</html>
