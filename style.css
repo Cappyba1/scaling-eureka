@@ -10,6 +10,9 @@ input, select {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+button :hover {
+    background-color: #0056b3;
+}
 
 button {
     margin: 5px;

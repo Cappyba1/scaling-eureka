@@ -37,4 +37,5 @@ function convert() {
     }
 
     document.getElementById("result").innerHTML = `Result: ${result.toFixed(2)} ${to}`;
+    document.getElementById("inputValue").value = ""; // Clear input field after conversion
 }
